@@ -17,7 +17,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow
 class window(QMainWindow):
 
     def __init__(self):
-        super(window, self).__init__()
+        super().__init__()
         self.setGeometry(50, 50, 500, 300)
         self.setWindowTitle('pyqt5 Tut')
         # self.setWindowIcon(QIcon('pic.png'))
